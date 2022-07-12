@@ -4,9 +4,7 @@ pipeline {
 
   environment {
     DOCKER_IMAGE = "thsnphm11/wordpress-demo"
-    
     PATH = "$PATH:/usr/local/bin"
-    
   }
 
   stages {
