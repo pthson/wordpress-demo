@@ -16,7 +16,7 @@ services:
 
   wordpress:
     build: .
-    image: thsnphm11/wordpress-demo:v1.0.0
+    image: thsnphm11/wordpress-demo:v1.0
     ports:
       - '8000:80'
     restart: always
