@@ -15,9 +15,8 @@ services:
       - wpsite
 
   wordpress:
-    depends_on:
-      - db
     build: .
+    image: thsnphm11/wordpress-demo:v1.0.0
     ports:
       - '8000:80'
     restart: always
